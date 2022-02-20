@@ -6,7 +6,6 @@ import Home from './Home';
 import Service from './Service';
 import About from './About';
 import Contact from './Contact';
-import Card from './Card';
 import {Routes, Route} from 'react-router-dom';
 
 const App = () => {

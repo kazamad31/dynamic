@@ -12,10 +12,10 @@ const Service = () => {
         <div className='col-10 mx-auto'>
         <div className='row gy-4'>
           { 
-          Sdata.map((val, ind)=>{
-            return <Card key={ind} imgsrc={val.imgsrc}
+          Sdata.map((val, index)=>{
+            return <Card key={index} imgsrc={val.imgsrc}
                   title={val.title} />
-          })}
+          })}                                              
         </div>
         </div>
       </div>

@@ -11,12 +11,14 @@ import {Routes, Route} from 'react-router-dom';
 const App = () => {
   return (
     <div> 
-      <Navbar/>
+      <Navbar/>  
    <Routes>
+     
      <Route exact path="/" element={<Home/>}></Route>
      <Route exact path="/contact" element={<Contact/>}></Route>
      <Route exact path="/service" element={<Service/>}></Route>
      <Route exact path="/about" element={<About/>}></Route>
+     <Route exact path=""></Route>
    </Routes>
    </div>
   );

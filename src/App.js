@@ -1,8 +1,6 @@
 import React from 'react';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
-import '../node_modules/mdb-ui-kit/css/mdb.min.css';
-import '../node_modules/mdb-ui-kit/js/mdb.min.js';
 import Navbar from './Navbar';
 import Home from './Home';
 import Service from './Service';

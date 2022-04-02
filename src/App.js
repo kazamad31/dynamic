@@ -9,12 +9,16 @@ import Contact from './Contact';
 import Signup from './Signup';
 import {Routes, Route} from 'react-router-dom';
 
+import Login from './Login';
+
+
 const App = () => {
   return (
     <div> 
       <Navbar/>
     <Routes>
      <Route exact path="/" element={<Signup/>}></Route>
+     <Route exact path="/login" element={<Login/>}></Route>
      <Route exact path="/home" element={<Home/>}></Route>
      <Route exact path="/contact" element={<Contact/>}></Route>
      <Route exact path="/service" element={<Service/>}></Route>

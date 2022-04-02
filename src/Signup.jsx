@@ -1,6 +1,11 @@
 import React from 'react';
+import {useNavigate} from 'react-router-dom';
 
 const Signup = () => {
+  let navigate = useNavigate();
+  const handleClick= ()=>{
+    navigate("/login");
+  }
   return (
     <>
     <section className="vh-100" style={{backgroundColor: `#eeeeee`}}>
@@ -61,7 +66,7 @@ const Signup = () => {
                       </div>
     
                       <div className="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                        <button type="button" className="btn btn-primary btn-lg">Register</button>
+                        <button type="button" className="btn btn-primary btn-lg"onClick={handleClick}>Register</button>
                       </div>
     
                     </form>

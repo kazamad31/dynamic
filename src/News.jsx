@@ -17,9 +17,8 @@ const News = () => {
       }
     };
     const response= await axios.request(option);
-    console.log(response.data);
+    //console.log(response.data);
     const news=(response.data.articles);
-    console.log(news);
     setPost(news);
      }
      fetchApi();

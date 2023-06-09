@@ -11,7 +11,6 @@ const Card = (props) => {
     overflow:'hidden',
     whiteSpace: 'nowrap'}}>{props.description}</p>
       <a href={props.url} target="_blank" rel="noreferrer" className="btn btn-primary">Read More..</a>
-      {console.log(props.url)}
     </div>
   </div>
   </div>
